@@ -1,0 +1,64 @@
+html {
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("img/gotham.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+    font-weight: bold;
+
+.container {
+    max-width: 1100px;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 16px;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.header {
+    text-align: center;
+}
+
+.paragrafo__principal {
+    font-style: italic;
+}
+
+.imagem {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.container__biografia {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.citacao__container {
+    background-color: #1C1C1C;
+    padding: 30px;
+}
+
+.citacao__container blockquote {
+    font-weight: bold;
+    font-size: 16px;
+    color: gold;
+}
+
+.citacao__container p {
+    font-style: italic;
+}
+
+.imagem__jogo {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
